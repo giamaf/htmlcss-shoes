@@ -1,6 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+</style>
+
 /* Reset CSS */
 body {
     Margin: 0;
     Padding: 0;
     Box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
 }
+
+html {
+    overflow-y: hidden;
+}
+
+
+/* Generics */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+img {
+    max-width: 90%;
+}
+
+h1 {
+    color: yellow;
+    font-size: 67px;
+    font-family: monospace;
+    font-weight: 900;
+    margin: 0;
+}
+
+.yellow h1 {
+    color: green;
+}
+
+/* todoMain */
+.page {
+    position: relative;
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* border: 2px solid black; */
+    max-width: 800px;
+    translate: -50% -50%;
+    text-align: center;
+}
+
+.content>* {}
+
+/* !Nav-bar */
+.nav-bar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+    gap: 40px;
+    padding: 10px 30px;
+}
+
+.nav-bar a {
+    color: black;
+    font-size: 1.8em;
+    font-family: monospace;
+    font-weight: 900;
+    background-color: white;
+    text-decoration: none;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.nav-bar a:hover {
+    scale: 1.3;
+}
+
+.nav-bar a:
