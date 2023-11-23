@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-</style>
-
 /* Reset CSS */
 body {
     Margin: 0;
     Padding: 0;
     Box-sizing: border-box;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
 }
 
 html {
@@ -16,7 +13,7 @@ html {
 
 /* Generics */
 .container {
-    max-width: 500px;
+    max-width: 00px;
     margin: 0 auto;
 }
 
@@ -42,9 +39,7 @@ img {
 
 h1 {
     color: yellow;
-    font-size: 67px;
-    font-family: monospace;
-    font-weight: 900;
+    font-size: 55px;
     margin: 0;
 }
 
